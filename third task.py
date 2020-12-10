@@ -1,8 +1,6 @@
 number = input("Введите число n: ")
-doubleNumber = number + number
-tripleNumber = number * 3
+double_number = int(number + number)
+triple_number = int(number * 3)
 number = int(number)
-doubleNumber = int(doubleNumber)
-tripleNumber = int(tripleNumber)
-sum = number + doubleNumber + tripleNumber
-print(f"Сумма чисел n + nn + nnn: {sum}")
+amount = number + double_number + triple_number
+print(f"Сумма чисел n + nn + nnn: {amount}")

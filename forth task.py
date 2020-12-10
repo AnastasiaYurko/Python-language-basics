@@ -8,10 +8,8 @@ maximum = int(number[0])
 while counter < listLength:
     if number[i] > maximum:
         maximum = number[i]
-        i += 1
-        counter += 1
-    else:
-        i += 1
-        counter += 1
+    i += 1
+    counter += 1
+
 print(maximum)
 
